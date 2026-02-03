@@ -4,6 +4,9 @@ A ticketing and reservation system for the Trinidad and Tobago Ferry Service
 
 ## Getting Started
 
+Before starting, please ensure you have Node.js installed. 
+If you don't, you can get it from here: [https://nodejs.org/en](https://nodejs.org/en) 
+
 First, clone the repo.
 
 Then, while in the root folder (tt-ferry), run the development server:

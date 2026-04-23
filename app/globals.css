@@ -1,20 +1,53 @@
 @import "tailwindcss";
+@import "@heroui/styles"; 
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FEFEFE;
+  --foreground: #02364B;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --font-ubuntu: var(--font-ubuntu);
+  --font-poppins: var(--font-poppins);
+
+  --font-inter: var(--font-inter);
+  --font-inter-tight: var(--font-inter-tight);
+  --font-weight-semimedium: 450;
+  --font-weight-semilite: 350;
+
+  --text-jumbo: 4rem; /* 64px */
+  --text-3xs: 0.5rem; /* 8px */
+  --text-2xs: 0.625rem; /* 10px */
+
+  --color-surface: #FeF9F7; /* super light teal, used as a white substitute */
+  --color-ink: #02364B; /* dark teal, used as black substitute */
+
+  --color-light-surface: #FEFEFE; /* almost white, used for light elements */
+  --color-dim-surface: #F7FBFB;
+  --color-blue-ink: #081732; /* Dark Blue, used for a lot of backdrounds and dark elements  */
+  --color-blue-surface: #7EB5DC; 
+  --color-butter: #FDFF95;
+
+  --color-ticket-passenger: #4BAFBE; /* for human passenger tickets */
+  --color-ticket-pet: #FFF200; /* for pet tickets */
+  --color-ticket-vehicle: #DC308F; /* for pet tickets */
+
+  --color-light-teal: #F0F9F7;
+
+
+  --color-ink-deep: #051A27; /* even darker teal, used for dark elements */
+  --color-ink-deeper: #04121B; /* super dark teal, used for overlays */
+  --color-accent: #081732; /* bright yellow, used as accent color */
+  --color-danger: #ED1C22; /* nice red, used for danger */
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #FEFEFE;
     --foreground: #ededed;
   }
 }
@@ -23,4 +56,55 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-ubuntu {
+  font-family: var(--font-ubuntu), sans-serif;
+}
+
+.font-poppins {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.font-inter {
+  font-family: var(--font-inter), sans-serif;
+}
+
+.font-inter-tight {
+  font-family: var(--font-inter-tight), sans-serif;
+}
+
+
+
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(var(--blue-ink-rgb), 0.2) transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 1px; 
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(var(--blue-ink-rgb), 0.2);
+    border-radius: 20px; 
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(var(--blue-ink-rgb), 0.4); 
+  }
 }

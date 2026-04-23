@@ -15,14 +15,14 @@ export default function BookingPage() {
 
             <div className="flex-grow" />
 
-            <div className="flex flex-col items-center md:items-start text-center md:text-left">
+            <div className="flex flex-col items-center md:items-start text-center md:text-left mt-42 md:mt-0">
               <h1 className="md:ml-2 text-6xl md:text-7xl text-light-surface font-inter-tight font-semimedium">
                 Your journey <br /> awaits
               </h1>
 
               <div className="hidden md:block w-full h-[1px] bg-light-surface/60 mt-4 mb-4" />
 
-              <p className="mt-4 md:mt-0 md:ml-2 text-lg md:text-xl text-light-surface/60 font-inter-tight font-light leading-tight">
+              <p className="mt-4 md:mt-0 md:ml-2 text-lg md:text-xl text-light-surface/80 font-inter-tight font-light leading-tight">
                 Choose your route, select your dates, <br className="hidden md:block" /> and book your trip in minutes
               </p>
             </div>

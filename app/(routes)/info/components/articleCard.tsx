@@ -38,8 +38,8 @@ export const ArticleCard = ({
           <span className="text-base font-semimedium text-blue-ink/60 tracking-tight">  /{index} </span>
   
           {badge && (
-            <div className="absolute right-0 px-4  pt-[8px] pb-[6px]  border border-blue-ink/60 rounded-full flex items-center justify-center">
-              <span className="text-xs font-normal text-blue-ink/60 uppercase leading-none mt-[-1px]"> {badge} </span>
+            <div className="absolute right-0 px-4  pt-[8px] pb-[6px]  border border-blue-ink/20 rounded-full flex items-center justify-center">
+              <span className="text-xs font-light text-blue-ink/60 uppercase leading-none mt-[-1px]"> {badge} </span>
             </div>
           )}
         </div>
@@ -49,7 +49,7 @@ export const ArticleCard = ({
           <div className="relative w-[215px] h-[260px] rounded-[69px] overflow-hidden bg-blue-surface/5">
             <div className="absolute inset-0 bg-gradient-to-b from-blue-surface/20 to-light-surface/20 pointer-events-none" />
             {image && (
-              <div className="relative w-full h-full p-8 flex items-center justify-center">
+              <div className="relative w-full h-full p-2 flex items-center justify-center">
                 <div className="relative w-full h-full">
                   <Image src={image} alt={title} fill className="object-contain" />
                 </div>

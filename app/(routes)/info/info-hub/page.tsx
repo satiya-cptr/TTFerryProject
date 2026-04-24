@@ -191,6 +191,14 @@ export default function InfoHubPage() {
               onClick={() => router.push(`/info/info-hub/${article.id}`)}
             />
           ))}
+          <ArticleCard 
+              key="refunds"
+              index="07"
+              title="Changes, delays and what comes next"
+              subtitle="A guide to refunds, eligibility, and claims"
+              badge="coming soon"
+              disabled = {true}
+            />
         </div>
       </section>
 

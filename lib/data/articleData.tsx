@@ -293,5 +293,200 @@ export const ARTICLES: Article[] = [
         )
       },
     ]
-  }
+  },
+  {
+    index: 4,
+    id: "accessibility",
+    title: "Travelling with the support you need",
+    subtitle: "A guide to our support and accessibility options",
+    subject: "Tickets",
+    priority: "High",
+    updatedAt: "April 16, 2026",
+    readTime: " 3 min",
+    cardImage: "/images/article/accessibility-card-img-2.avif",
+    headerImage: "/images/article/accessibility-cover.webp",
+    content: [
+      {
+        type: 'body-only',
+        body: (
+          <div className="space-y-6">
+            <p>We’re committed to making your journey as comfortable and accessible as possible. Support is available throughout your experience, from arrival at the terminal to your time on board.</p>
+            <p>Whether you require assistance or simply prefer an extra level of support, staff are on hand to help every step of the way. </p>
+          </div>
+        )
+      },
+      {
+        type: 'header-body',
+        header: "Support Throughout your Journey",
+        body: (
+          <div className="space-y-6">
+            <p>Support is available from the moment you arrive at the terminal and continues through boarding and your time on board.</p>
+            <p>Both the terminal and vessel are equipped with ramps and elevators to provide alternative access where needed. While some areas include steps, accessible routes are clearly available and staff are present throughout to guide and assist.</p>
+            <p>Attendants are stationed across the terminal and boarding areas and are available to assist all passengers, whether travelling on foot or with a vehicle. Assistance can be requested at any time and may also be offered where needed.</p>
+          </div>
+        )
+      },
+      {
+        type: 'header-body',
+        header: "Boarding and Onboard Assistance",
+        body: (
+          <div className="space-y-6">
+            <p>Passengers requiring additional support are accommodated at the start of boarding to allow for a more comfortable and unhurried process.</p>
+            <p>Staff assist with boarding using lifts, ramps, or alternative access points as needed. Once on board, attendants remain available to help passengers move around the vessel and access facilities.</p>
+            <p>Accessible restrooms are available on board, and support continues throughout the journey. Assistance is always available whenever it is needed.</p>
+          </div>
+        )
+      },
+      {
+        type: 'header-body',
+        header: "Requesting Assistance in Advance",
+        body: (
+          <div className="space-y-6">
+            <p>While assistance is always available on arrival, you may choose to let us know in advance if you require support.</p>
+            <p>Requests can be added during or after booking, or submitted through the contact form with your booking reference and any relevant details. This allows staff to be prepared ahead of your arrival and provide more tailored assistance where needed.</p>
+          </div>
+        )
+      },
+      {
+        type: 'header-body',
+        header: "Our Committment",
+        body: (
+          <div className="space-y-6">
+            <p>Our team is here to ensure your journey is safe, comfortable, and accessible from start to finish. If you need support at any point, assistance is always available.</p>
+          </div>
+        )
+      },
+    ]
+  },
+  {
+    index: 5,
+    id: "pets",
+    title: "What to expect when travelling with pets",
+    subtitle: "A guide to bringing pets on board",
+    subject: "Restrictions",
+    priority: "High",
+    updatedAt: "April 16, 2026",
+    readTime: " 2 min",
+    cardImage: "/images/article/pets-card-image.avif",
+    headerImage: "/images/article/pets-cover.webp",
+    content: [
+      {
+        type: 'body-only',
+        body: (
+          <div className="space-y-6">
+            <p>Travelling with pets is straightforward when you know what to expect. With the right preparation, you and your pet can enjoy a safe and comfortable journey.</p>
+          </div>
+        )
+      },
+      {
+        type: 'header-body',
+        header: "Booking Your Pet",
+        body: (
+          <div className="space-y-6">
+            <p>Pets must be included when booking your trip.  A ticket is required for each pet and is available at a fixed rate of $20, regardless of travel class.</p>
+          </div>
+        )
+      },
+      {
+        type: 'header-body',
+        header: "Before Boarding",
+        body: (
+          <div className="space-y-6">
+            <p>On the day of travel, you’ll need to obtain a ‘Cargo Shipment Form’ from the freight cashier for each pet.</p>
+            <p>All pets must be placed in an appropriate crate, cage, or container suitable for transport. Carriers must be secure, well-ventilated, and large enough for the animal to remain comfortable during the journey.</p>
+          </div>
+        )
+      },
+      {
+        type: 'header-body',
+        header: "During and After Your Journey",
+        body: (
+          <div className="space-y-6">
+            <p>Once checked in, a port agent will take your pet and place it in the designated pet hold area located on the vehicle deck. Pets remain safely stowed for the duration of the sailing, and passengers do not have access to this area while the vessel is in transit.</p>
+            <p>To ensure your pet’s comfort, it’s recommended that they are fed and prepared for the journey before check-in.</p>
+            <p>After arrival, pets are returned to their owners at baggage claim.</p>
+          </div>
+        )
+      },
+      {
+        type: 'header-body',
+        header: "Important Things to Note",
+        body: (
+          <div className="space-y-6">
+            <ul className="list-disc ml-8 space-y-1">
+              <li>Pets must remain in their carriers at all times while at the terminal and during transport.</li>
+              <li>Passengers are not allowed to access the pet hold during the journey.</li>
+              <li>Pets are not allowed in the passenger deck.</li>
+            </ul>
+          </div>
+        )
+      },
+    ]
+  },
+  {
+    index: 6,
+    id: "documents",
+    title: "Ready to travel? Here's what you'll need",
+    subtitle: "A guide to required travel documents",
+    subject: "Restrictions",
+    priority: "High",
+    updatedAt: "April 16, 2026",
+    readTime: " 1 min",
+    cardImage: "/images/article/documents-card-img.avif",
+    headerImage: "/images/article/documents-cover.jpg",
+    content: [
+      {
+        type: 'body-only',
+        body: (
+          <div className="space-y-6">
+            <p>Before arriving at the terminal, make sure you have the correct identification for your journey. All passengers are required to present valid travel documents before boarding.</p>
+          </div>
+        )
+      },
+      {
+        type: 'header-body',
+        header: "Identification Requirements",
+        body: (
+          <div className="space-y-6">
+            <p>All regional and international travellers must present a valid passport in order to board.</p>
+            <div className="space-y-3">
+              <p>For Trinidad and Tobago nationals, identification requirements vary by age:</p>
+              <ul className="list-disc ml-8 space-y-1">
+                <li>Children aged 14 years and under may travel without identification</li>
+                <li>Passengers aged 15 years and over must present one of the following:</li>
+                  <ul className="list-disc ml-8 space-y-1">
+                    <li>National Identification Card</li>
+                    <li>Driver’s Permit</li>
+                    <li>Valid Passport</li>
+                  </ul>
+                <li>Seniors aged 60 and over must present either a National Identification Card or a valid Passport. Driver's permits will not be accepted.</li>
+              </ul>
+            </div>
+            <p>All documents must be original and valid. Photocopies, digital copies, or images will not be accepted.</p>
+          </div>
+        )
+      },
+      {
+        type: 'header-body',
+        header: "Travelling with a Vehicle",
+        body: (
+          <div className="space-y-6">
+            <p>Passengers travelling with a vehicle are required to present the original 'Certificate of Insurance' for the vehicle, whether registered or unregistered.</p>
+          </div>
+        )
+      },
+      {
+        type: 'header-body',
+        header: "Important Things to Note",
+        body: (
+          <div className="space-y-6">
+            <ul className="list-disc ml-8 space-y-1">
+              <li>Passengers must present valid identification that matches the name on their ticket.</li>
+              <li>Failure to present the required documents will result in denial of boarding.</li>
+            </ul>
+          </div>
+        )
+      },
+    ]
+  },
 ];
